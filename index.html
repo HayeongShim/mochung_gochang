@@ -19,6 +19,22 @@
   <meta charset="UTF-8">
   <meta content="IE=Edge" http-equiv="X-UA-Compatible">
   <meta name="description" content="A new Flutter project.">
+
+  <style>
+    /* 기본 스타일 */
+    body {
+        color: black;
+        background-color: white;
+    }
+
+    /* 다크 모드에서만 적용되는 스타일 */
+    @media (prefers-color-scheme: dark) {
+        body {
+            color: white;
+            background-color: black;
+        }
+    }
+  </style>
   
   <meta name="color-scheme" content="light only">
   <meta name="supported-color-schemes" content="light">
@@ -44,7 +60,7 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1569653189";
+    const serviceWorkerVersion = "1549607948";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
